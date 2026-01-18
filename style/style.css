@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(26, 11, 46, 1);
+}
+@import "tailwindcss";
+
+
+/* shared style */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gradient{
+    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #8B5CF6 100%);
+    border:none;
+    color: white;
+    border-radius:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    padding:12px 24px;
+    gap:8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #8B5CF6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gradient i {
+  font-size: 14px;
+  background: transparent;
+  color: white; 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px ;
+    padding: 30px 200px;
+}
+.logo{
+     font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
