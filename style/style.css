@@ -174,7 +174,25 @@ header {
 }
 
 
+.footer{
+  background:url(../assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+
+}
+.footer .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+  
+}
 
 
 
@@ -183,7 +201,7 @@ header {
     display: none;
   }
 
-  .gradient {
+  .t1 .gradient {
     display: none;
   }
 
@@ -201,4 +219,5 @@ header {
   .hamburger {
     display: block;
   }
+
 }
