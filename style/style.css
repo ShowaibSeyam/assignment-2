@@ -539,6 +539,13 @@ header {
     display: block;
   }
 
+  .banner .title p{
+    order: 1;
+  }
+  .banner .title h1{
+    order:2;
+  }
+
   .social-links{
      display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -561,6 +568,11 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.why-choose h1{
+
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 .features-box{
   display: grid;
